@@ -7,9 +7,9 @@
 #include "StdAfx.h"
 #include "TWord.h"
 
-TDatValue * TWord :: GetCopy() { // изготовить копию
-  TDatValue *temp = new TWord(Word);
-  return temp;
+TDatValue * TWord::GetCopy() { // изготовить копию
+	TDatValue *temp = new TWord(Word);
+	return temp;
 }
 
 

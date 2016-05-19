@@ -1,3 +1,4 @@
-#include "StdAfx.h"
-#include "Datvalue.h"
+#include "stdafx.h"
+#include "DatValue.h"
+
 

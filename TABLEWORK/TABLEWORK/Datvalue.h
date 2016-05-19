@@ -3,11 +3,11 @@
 
 #include <iostream>
 using namespace std;
-class TDatValue 
+class TDatValue
 {
 public:
-	virtual TDatValue * GetCopy() =0;
-	~TDatValue() 
+	virtual TDatValue * GetCopy() = 0;
+	~TDatValue()
 	{}
 
 };

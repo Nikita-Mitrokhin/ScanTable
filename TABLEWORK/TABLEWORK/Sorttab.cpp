@@ -1,11 +1,5 @@
-
-#include "StdAfx.h"
-// ННГУ, ВМК, Курс "Методы программирования-2", С++, ООП
-//
-// sorttab.cpp - Copyright (c) Гергель В.П. 04.09.2000
-//
 // Упорядоченные Таблицы
-
+#include "StdAfx.h"
 #include "Sorttab.h"
 
 // создание упорядоченной таблицы по просматриваемой таблице
@@ -136,7 +130,13 @@ void TSortTable::MergeData(PTTabRecord * &pData, PTTabRecord * &pBuff, int n1, i
 	// с исходными двумя массивами (далее эта память может использоваться как
 	// рабочий буфер для последующих слияний упорядоченных данных
 
+	for (int i = 0; i < (n1 + n2); i++) {
+		pBuff[i] = pData[i];
 
+	}
+	PTTabRecord *&tmp = pData;
+	pData = pBuff;
+	pBuff = tmp;
 
 }
 

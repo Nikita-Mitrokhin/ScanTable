@@ -80,19 +80,37 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayTab.h" />
+    <ClInclude Include="ArrHash.h" />
+    <ClInclude Include="BalNode.h" />
+    <ClInclude Include="BalTree.h" />
+    <ClInclude Include="DatLink.h" />
+    <ClInclude Include="DatList.h" />
     <ClInclude Include="DatValue.h" />
+    <ClInclude Include="HashTab.h" />
+    <ClInclude Include="ListHash.h" />
+    <ClInclude Include="RootLink.h" />
     <ClInclude Include="ScanTab.h" />
     <ClInclude Include="Sorttab.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="TDataCom.h" />
     <ClInclude Include="TRecord.h" />
+    <ClInclude Include="TreeNode.h" />
+    <ClInclude Include="TreeTab.h" />
     <ClInclude Include="TTable.h" />
     <ClInclude Include="TWord.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArrayTab.cpp" />
+    <ClCompile Include="ArrHash.cpp" />
+    <ClCompile Include="BalNode.cpp" />
+    <ClCompile Include="BalTree.cpp" />
+    <ClCompile Include="DatLink.cpp" />
+    <ClCompile Include="DatList.cpp" />
     <ClCompile Include="DatValue.cpp" />
+    <ClCompile Include="HashTab.cpp" />
+    <ClCompile Include="ListHash.cpp" />
+    <ClCompile Include="RootLink.cpp" />
     <ClCompile Include="ScanTab.cpp" />
     <ClCompile Include="Sorttab.cpp" />
     <ClCompile Include="stdafx.cpp">
@@ -102,6 +120,8 @@
     <ClCompile Include="TABLEWORK.cpp" />
     <ClCompile Include="TDataCom.cpp" />
     <ClCompile Include="TRecord.cpp" />
+    <ClCompile Include="TreeNode.cpp" />
+    <ClCompile Include="TreeTab.cpp" />
     <ClCompile Include="TTable.cpp" />
     <ClCompile Include="TWord.cpp" />
   </ItemGroup>

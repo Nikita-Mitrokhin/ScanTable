@@ -1,27 +1,37 @@
-﻿Сборка начата 20.05.2016 0:50:56.
-     1>Проект "C:\Users\Nikita\documents\visual studio 2013\Projects\TABLEWORK\TABLEWORK\TABLEWORK.vcxproj" в узле 2 (целевые объекты Build).
+﻿Сборка начата 20.05.2016 21:24:33.
+     1>Проект "C:\Users\Nikita\Documents\Visual Studio 2013\Projects\TABLEWORK\TABLEWORK\TABLEWORK.vcxproj" в узле 2 (целевые объекты Build).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\TABLEWORK.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt TABLEWORK.cpp
          TABLEWORK.cpp
-     1>c:\users\nikita\documents\visual studio 2013\projects\tablework\tablework\tablework.cpp(7): warning C4005: _CRT_SECURE_NO_WARNINGS: изменение макроопределения
+     1>c:\users\nikita\documents\visual studio 2013\projects\tablework\tablework\tablework.cpp(3): warning C4005: _CRT_SECURE_NO_WARNINGS: изменение макроопределения
                  аргументы командной строки:  см. предыдущее определение "_CRT_SECURE_NO_WARNINGS"
-     1>c:\users\nikita\documents\visual studio 2013\projects\tablework\tablework\tablework.cpp(7): warning C4603: _CRT_SECURE_NO_WARNINGS: макрос не определен или определение изменилось после использования предкомпилированного заголовка
+     1>c:\users\nikita\documents\visual studio 2013\projects\tablework\tablework\tablework.cpp(3): warning C4603: _CRT_SECURE_NO_WARNINGS: макрос не определен или определение изменилось после использования предкомпилированного заголовка
                  Добавление макроопределения в предкомпилированный заголовок вместо определения его здесь
-                 c:\users\nikita\documents\visual studio 2013\projects\tablework\tablework\tablework.cpp(9): использование предкомпилированного заголовка
+                 c:\users\nikita\documents\visual studio 2013\projects\tablework\tablework\tablework.cpp(5): использование предкомпилированного заголовка
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Nikita\documents\visual studio 2013\Projects\TABLEWORK\Debug\TABLEWORK.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Nikita\documents\visual studio 2013\Projects\TABLEWORK\Debug\TABLEWORK.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Nikita\documents\visual studio 2013\Projects\TABLEWORK\Debug\TABLEWORK.lib" /MACHINE:X86 Debug\ArrayTab.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Nikita\Documents\Visual Studio 2013\Projects\TABLEWORK\Debug\TABLEWORK.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Nikita\Documents\Visual Studio 2013\Projects\TABLEWORK\Debug\TABLEWORK.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Nikita\Documents\Visual Studio 2013\Projects\TABLEWORK\Debug\TABLEWORK.lib" /MACHINE:X86 Debug\ArrayTab.obj
+         Debug\ArrHash.obj
+         Debug\BalNode.obj
+         Debug\BalTree.obj
+         Debug\DatLink.obj
+         Debug\DatList.obj
          Debug\DatValue.obj
+         Debug\HashTab.obj
+         Debug\ListHash.obj
+         Debug\RootLink.obj
          Debug\ScanTab.obj
          Debug\Sorttab.obj
          Debug\stdafx.obj
          Debug\TABLEWORK.obj
          Debug\TDataCom.obj
          Debug\TRecord.obj
+         Debug\TreeNode.obj
+         Debug\TreeTab.obj
          Debug\TTable.obj
          Debug\TWord.obj
-         TABLEWORK.vcxproj -> C:\Users\Nikita\documents\visual studio 2013\Projects\TABLEWORK\Debug\TABLEWORK.exe
-     1>Сборка проекта "C:\Users\Nikita\documents\visual studio 2013\Projects\TABLEWORK\TABLEWORK\TABLEWORK.vcxproj" завершена (целевые объекты Build).
+         TABLEWORK.vcxproj -> C:\Users\Nikita\Documents\Visual Studio 2013\Projects\TABLEWORK\Debug\TABLEWORK.exe
+     1>Сборка проекта "C:\Users\Nikita\Documents\Visual Studio 2013\Projects\TABLEWORK\TABLEWORK\TABLEWORK.vcxproj" завершена (целевые объекты Build).
 
 Сборка успешно завершена.
 
-Затраченное время: 00:00:00.80
+Затраченное время: 00:00:00.74
